@@ -150,3 +150,23 @@ span{
 .content-1{
   padding: 100px;
 }
+
+.content-1-info{
+  position: absolute;
+  top: 900px;
+  right: 20px;
+  background: white;
+  width: 670px;
+  padding: 100px;
+}
+
+.content-1-title{
+  font-family: var(--ff-josefin);
+  font-size: 3em;
+  margin-bottom: 40px;
+}
+
+.content-1-text{
+  font-family: var(--ff-alata);
+  color: var(--clr-dark-gray);
+}
