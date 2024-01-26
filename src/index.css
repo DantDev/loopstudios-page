@@ -195,3 +195,9 @@ span{
   border: 2px solid var(--clr-dark-gray);
   border-radius: 3px;
 }
+
+.content-2-imgs{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
