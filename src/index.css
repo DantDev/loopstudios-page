@@ -170,3 +170,28 @@ span{
   font-family: var(--ff-alata);
   color: var(--clr-dark-gray);
 }
+
+.content-2{
+  padding: 100px;
+}
+
+.content-2-info{
+  display: flex;
+}
+
+.content-2-title{
+  font-family: var(--ff-josefin);
+  font-weight: 300;
+  font-size: 3em;
+  margin-right: auto;
+}
+
+.see-btn{
+  background: white;
+  font-family: var(--ff-alata);
+  letter-spacing: 4px;
+  font-size: 1em;
+  padding: 0 40px;
+  border: 2px solid var(--clr-dark-gray);
+  border-radius: 3px;
+}
