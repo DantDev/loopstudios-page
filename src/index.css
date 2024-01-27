@@ -177,6 +177,7 @@ span{
 
 .content-2-info{
   display: flex;
+  margin-bottom: 80px;
 }
 
 .content-2-title{
@@ -188,16 +189,38 @@ span{
 
 .see-btn{
   background: white;
+  height: 40px;
   font-family: var(--ff-alata);
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   font-size: 1em;
   padding: 0 40px;
   border: 2px solid var(--clr-dark-gray);
   border-radius: 3px;
 }
 
-.content-2-imgs{
+.content-2-imgs-1{
   display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.content-2-imgs-2{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.content-2-img{
+  position: relative;
+}
+
+.img-title{
+  font-family: var(--ff-josefin);
+  font-weight: 300;
+  font-size: 2em;
+  color: white;
+  position: absolute;
+  top: 350px;
+  left: 30px;
 }

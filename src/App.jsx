@@ -53,11 +53,16 @@ function App() {
           <h2 className="content-2-title">OUR CREATIONS</h2>
           <button className="see-btn">SEE ALL</button>
         </div>
-        <div className="content-2-imgs">
-          <img src={earthImg} />
+        <div className="content-2-imgs-1">
+          <div className="content-2-img">
+            <img src={earthImg} />
+            <h3 className="img-title"><span>DEEP</span> EARTH</h3>
+          </div>
           <img src={arcadeImg} />
           <img src={soccerImg} />
           <img src={gridImg} />
+        </div>
+        <div className="content-2-imgs-2">
           <img src={aboveImg} />
           <img src={borealisImg} />
           <img src={curiosityImg} />
