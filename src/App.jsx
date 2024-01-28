@@ -58,15 +58,36 @@ function App() {
             <img src={earthImg} />
             <h3 className="img-title"><span>DEEP</span> EARTH</h3>
           </div>
-          <img src={arcadeImg} />
-          <img src={soccerImg} />
-          <img src={gridImg} />
+          <div className="content-2-img">
+            <img src={arcadeImg} />
+            <h3 className="img-title"><span>NIGHT</span> ARCADE</h3>
+          </div>
+          <div className="content-2-img">
+            <img src={soccerImg} />
+            <h3 className="img-title"><span>SOCCER</span> TEAM VR</h3>
+          </div>
+          <div className="content-2-img">
+            <img src={gridImg} />
+            <h3 className="img-title"><span>THE</span> GRID</h3>
+          </div>
         </div>
         <div className="content-2-imgs-2">
-          <img src={aboveImg} />
-          <img src={borealisImg} />
-          <img src={curiosityImg} />
-          <img src={fisheyeImg} />
+          <div className="content-2-img">
+            <img src={aboveImg} />
+            <h3 className="img-title"><span>FROM UP</span> ABOVE VR</h3>
+          </div>
+          <div className="content-2-img">
+            <img src={borealisImg} />
+            <h3 className="img-title"><span>POCKET</span> BOREALIS</h3>
+          </div>
+          <div className="content-2-img">
+            <img src={curiosityImg} />
+            <h3 className="img-title"><span>THE</span> CURIOSITY</h3>
+          </div>
+          <div className="content-2-img">
+            <img src={fisheyeImg} />
+            <h3 className="img-title"><span>MAKE IT</span> FISHEYE</h3>
+          </div>
         </div>
       </div>
     </div>
