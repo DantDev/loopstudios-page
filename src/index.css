@@ -14,7 +14,7 @@
   --ff-josefin: 'Josefin Sans';
 }
 
-span{
+.text-block{
   display: block;
 }
 
@@ -58,6 +58,11 @@ span{
 .menu-item{
   margin-left: 40px;
   font-family: var(--ff-alata);
+}
+
+.menu-item:hover a span{
+  text-decoration: underline 3px;
+  text-underline-offset: 10px;
 }
 
 .hamburger{
@@ -223,4 +228,60 @@ span{
   position: absolute;
   top: 350px;
   left: 30px;
+}
+
+footer{
+  background: black;
+  height: 160px;
+}
+
+.footer-logos{
+  display: flex;
+  padding: 30px 100px;
+}
+
+.footer-logo{
+  height: 24px;
+}
+
+.social-logos{
+  margin-left: auto;
+}
+
+.logo-single{
+  margin: 0 10px;
+}
+
+.logo-single:last-child{
+  margin-right: 0;
+}
+
+.footer-nav{
+  display: flex;
+  padding: 0 100px;
+}
+
+.footer-nav p a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-menu-item{
+  font-family: var(--ff-alata);
+  margin: 0 15px;
+  font-size: 1em;
+}
+
+.footer-menu-item:first-child{
+  margin-left: 0;
+}
+
+.copyright{
+  margin-left: auto;
+}
+
+.copyright-text{
+  color: white;
+  font-family: var(--ff-alata);
+  color: var(--clr-very-dark-gray);
 }
