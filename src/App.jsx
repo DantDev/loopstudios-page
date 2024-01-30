@@ -59,37 +59,37 @@ function App() {
         </div>
         <div className="content-2-imgs-1">
           <div className="content-2-img">
-            <img src={earthImg} />
+            <img className="img-single" src={earthImg} />
             <h3 className="img-title"><span className="text-block">DEEP</span> EARTH</h3>
           </div>
           <div className="content-2-img">
-            <img src={arcadeImg} />
+            <img className="img-single" src={arcadeImg} />
             <h3 className="img-title"><span className="text-block">NIGHT</span> ARCADE</h3>
           </div>
           <div className="content-2-img">
-            <img src={soccerImg} />
+            <img className="img-single" src={soccerImg} />
             <h3 className="img-title"><span className="text-block">SOCCER</span> TEAM VR</h3>
           </div>
           <div className="content-2-img">
-            <img src={gridImg} />
+            <img className="img-single" src={gridImg} />
             <h3 className="img-title"><span className="text-block">THE</span> GRID</h3>
           </div>
         </div>
         <div className="content-2-imgs-2">
           <div className="content-2-img">
-            <img src={aboveImg} />
+            <img className="img-single" src={aboveImg} />
             <h3 className="img-title"><span className="text-block">FROM UP</span> ABOVE VR</h3>
           </div>
           <div className="content-2-img">
-            <img src={borealisImg} />
+            <img className="img-single" src={borealisImg} />
             <h3 className="img-title"><span className="text-block">POCKET</span> BOREALIS</h3>
           </div>
           <div className="content-2-img">
-            <img src={curiosityImg} />
+            <img className="img-single" src={curiosityImg} />
             <h3 className="img-title"><span className="text-block">THE</span> CURIOSITY</h3>
           </div>
           <div className="content-2-img">
-            <img src={fisheyeImg} />
+            <img className="img-single" src={fisheyeImg} />
             <h3 className="img-title"><span className="text-block">MAKE IT</span> FISHEYE</h3>
           </div>
         </div>
