@@ -32,7 +32,7 @@ function App() {
               <li className="menu-item"><a href="">Ca<span>ree</span>rs</a></li>
               <li className="menu-item"><a href="">E<span>ven</span>ts</a></li>
               <li className="menu-item"><a href="">Pr<span>odu</span>ct</a></li>
-              <li className="menu-item"><a href="">Su<span className="text-under">ppo</span>rt</a></li>
+              <li className="menu-item"><a href="">Su<span>ppo</span>rt</a></li>
             </ul>
           </div>
         </nav>
@@ -105,11 +105,11 @@ function App() {
           </div>
         </div>
         <div className="footer-nav">
-          <p className="footer-menu-item"><a href="">About</a></p>
-          <p className="footer-menu-item"><a href="">Careers</a></p>
-          <p className="footer-menu-item"><a href=""> Events</a></p>
-          <p className="footer-menu-item"><a href="">Products</a></p>
-          <p className="footer-menu-item"><a href="">Support</a></p>
+          <p className="footer-menu-item"><a href="">A<span>bou</span>t</a></p>
+          <p className="footer-menu-item"><a href="">Ca<span>ree</span>rs</a></p>
+          <p className="footer-menu-item"><a href="">E<span>ven</span>ts</a></p>
+          <p className="footer-menu-item"><a href="">Pr<span>odu</span>cts</a></p>
+          <p className="footer-menu-item"><a href="">Su<span>ppo</span>rt</a></p>
           <div className="copyright">
             <p className="copyright-text">© 2021 Loopstudios. All rights reserved.</p></div>
         </div>

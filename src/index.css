@@ -61,7 +61,7 @@
 }
 
 .menu-item:hover a span{
-  text-decoration: underline 3px;
+  text-decoration: underline 2px;
   text-underline-offset: 10px;
 }
 
@@ -255,7 +255,7 @@ footer{
 
 .footer-logos{
   display: flex;
-  padding: 30px 100px;
+  padding: 40px 100px 10px;
 }
 
 .footer-logo{
@@ -269,11 +269,12 @@ footer{
 .logo-single{
   margin: 0 10px;
   cursor: pointer;
+  padding-bottom: 12px;
 }
 
 .logo-single:hover{
-  text-decoration: underline 3px;
-  text-underline-offset: 10px;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
 }
 
 .logo-single:last-child{
@@ -298,6 +299,11 @@ footer{
 
 .footer-menu-item:first-child{
   margin-left: 0;
+}
+
+.footer-menu-item:hover a span{
+  text-decoration: underline 2px;
+  text-underline-offset: 10px;
 }
 
 .copyright{
