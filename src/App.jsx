@@ -115,23 +115,26 @@ function App() {
         </div>
       </div>
       <footer>
-        <div className="footer-logos">
+        <div className="footer-nav">
           <img className="footer-logo" src={logo} />
+          <div className="footer-menu">
+            <p className="footer-menu-item"><a href="">A<span>bou</span>t</a></p>
+            <p className="footer-menu-item"><a href="">Ca<span>ree</span>rs</a></p>
+            <p className="footer-menu-item"><a href="">E<span>ven</span>ts</a></p>
+            <p className="footer-menu-item"><a href="">Pr<span>odu</span>cts</a></p>
+            <p className="footer-menu-item"><a href="">Su<span>ppo</span>rt</a></p>
+          </div>
+        </div>
+        <div className="footer-logos">
           <div className="social-logos">
             <img className="logo-single" src={facebookLogo} />
             <img className="logo-single" src={twitterLogo} />
             <img className="logo-single" src={pinterestLogo} />
             <img className="logo-single" src={instagramLogo} />
           </div>
-        </div>
-        <div className="footer-nav">
-          <p className="footer-menu-item"><a href="">A<span>bou</span>t</a></p>
-          <p className="footer-menu-item"><a href="">Ca<span>ree</span>rs</a></p>
-          <p className="footer-menu-item"><a href="">E<span>ven</span>ts</a></p>
-          <p className="footer-menu-item"><a href="">Pr<span>odu</span>cts</a></p>
-          <p className="footer-menu-item"><a href="">Su<span>ppo</span>rt</a></p>
           <div className="copyright">
-            <p className="copyright-text">© 2021 Loopstudios. All rights reserved.</p></div>
+            <p className="copyright-text">© 2021 Loopstudios. All rights reserved.</p>
+          </div>
         </div>
       </footer>
     </div>

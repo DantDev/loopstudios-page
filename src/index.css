@@ -262,21 +262,31 @@
 }
 
 footer{
+  display: flex;
   background: black;
   height: 160px;
 }
 
-.footer-logos{
+.footer-nav{
   display: flex;
+  flex-direction: column;
   padding: 40px 100px 10px;
+}
+
+.footer-menu{
+  display: flex;
 }
 
 .footer-logo{
   height: 24px;
+  width: min-content;
+  margin-bottom: 20px;
 }
 
 .social-logos{
   margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .logo-single{
@@ -294,12 +304,14 @@ footer{
   margin-right: 0;
 }
 
-.footer-nav{
+.footer-logos{
   display: flex;
-  padding: 0 100px;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: 100px;
 }
 
-.footer-nav p a{
+.footer-menu p a{
   text-decoration: none;
   color: white;
 }
@@ -335,7 +347,26 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 350px;
+    max-width: 100vw;
+  }
+
+  /*HEADER*/
+
+  .header{
+    width: 100vw;
+  }
+
+  .nav-section{
+    padding: 0;
+  }
+
+  .header-info{
+    padding: 0;
+  }
+
+  .header-text{
+    font-size: 2em;
+    padding: 0;
   }
 
   .hamburger,
@@ -362,6 +393,13 @@ footer{
 
   .hero-background-mobile{
     display: block;
+    width: 100vw;
+  }
+
+  /*Content 1*/
+
+  .content-1{
+    padding: 0;
   }
 
   .img-interactive{
@@ -370,10 +408,41 @@ footer{
 
   .img-interactive-mobile{
     display: block;
+    width: 100vw;
   }
 
   .content-1-info{
     position: static;
+    padding: 0;
+    width: 100vw;
+  }
+
+  .content-1-title{
+    font-size: 2em;
+  }
+
+  /*CONTENT 2*/
+
+  .content-2{
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-2-info{
+    width: 100vw;
+  }
+
+  .content-2-title{
+    font-size: 1.5em;
+  }
+
+  .see-btn{
+    font-size: 1em;
+    height: 30px;
+    padding: 0 10px;
   }
 
   .img-single{
@@ -382,13 +451,55 @@ footer{
 
   .img-single-mobile{
     display: block;
+    max-width: 90vw;
+  }
+
+  .img-title{
+    font-size: 1.6em;
+    top: 60px;
   }
 
   .content-2-imgs-1{
     flex-direction: column;
+    width: 90vw;
   }
 
   .content-2-imgs-2{
     flex-direction: column;
+    width: 90vw;
+  }
+
+  /*FOOTER*/
+
+  footer{
+    height: 400px;
+    width: 100vw;
+    flex-direction: column;
+  }
+
+  .footer-nav{
+    align-items: center;
+  }
+
+  .footer-menu{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-menu-item{
+    margin: 0;
+  }
+  
+  .footer-logos{
+    margin: 0;
+    align-items: center;
+  }
+
+  .social-logos{
+    margin-left: 0;
+  }
+
+  .copyright{
+    margin: 0;
   }
 }
