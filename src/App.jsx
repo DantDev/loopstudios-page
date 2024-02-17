@@ -32,7 +32,7 @@ function App() {
       <div className="header">
         <nav className="nav-section">
           <div className="logo-div">
-            <img src={logo} />
+            <img className="logo-img" src={logo} />
           </div>
           <div className="navigation">
             <input type="checkbox" className="toggle-menu"/>
@@ -50,15 +50,17 @@ function App() {
             <h1 className="header-text">
               <span className="text-block">IMMERSIVE</span>
               <span className="text-block">EXPERIENCES</span>
-              <span className="text-block">THAT DELIVER</span>
+              <span className="text-block"><span className="that-text-block">THAT</span> DELIVER</span>
             </h1>
         </div>
         <img className="hero-background" src={imgHero} />
         <img className="hero-background-mobile" src={imgHeroMobile} />
       </div>
       <div className="content-1">
-        <img className="img-interactive" src={imgInteractive} />
-        <img className="img-interactive-mobile" src={imgInteractiveMobile} />
+        <div className="content-1-imgs">
+          <img className="img-interactive" src={imgInteractive} />
+          <img className="img-interactive-mobile" src={imgInteractiveMobile} />
+        </div>
         <div className="content-1-info">
           <h2 className="content-1-title">THE LEADER IN INTERACTIVE VR</h2>
           <p className="content-1-text">Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
@@ -113,6 +115,7 @@ function App() {
             <h3 className="img-title"><span className="text-block">MAKE IT</span> FISHEYE</h3>
           </div>
         </div>
+        <button className="see-btn-mobile">SEE ALL</button>
       </div>
       <footer>
         <div className="footer-nav">
