@@ -158,7 +158,7 @@
 }
 
 .content-1{
-  padding: 100px;
+  padding: 150px 100px 100px 100px;
 }
 
 .img-interactive-mobile{
@@ -178,6 +178,7 @@
   font-family: var(--ff-josefin);
   font-size: 3em;
   margin-bottom: 40px;
+  font-weight: 300;
 }
 
 .content-1-text{

@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/loopstudio-main-page-react-vite-css-variables-responsive-j6-LIBJRN6)
 - Live Site URL: [Live Site](https://sunny-twilight-94ab41.netlify.app/)
 - Repository: [Repository](https://github.com/DantDev/loopstudios-page)
 
