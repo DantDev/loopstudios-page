@@ -261,6 +261,10 @@
   left: 30px;
 }
 
+.see-btn-mobile{
+  display: none;
+}
+
 footer{
   display: flex;
   background: black;
@@ -508,6 +512,7 @@ footer{
   }
 
   .see-btn-mobile{
+    display: block;
     background: white;
     height: 40px;
     font-family: var(--ff-alata);
